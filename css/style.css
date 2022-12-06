@@ -256,9 +256,6 @@ main>section>.container {
 
 .footer-main {
 	padding-top: 10px;
-
-
-	/* debug */
 	background-color: #23272a;
 }
 
@@ -298,7 +295,7 @@ main>section>.container {
 	border-bottom: 2px solid purple;
 
 	/* debug */
-	min-height: 500px;
+	/* min-height: 500px; */
 }
 
 .footer-main-col {
@@ -314,16 +311,29 @@ main>section>.container {
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	/* background-color: #20b2aa;
+	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	/* background-color: #20b2aa;
+	border: 2px dashed white; */
+}
+
+.footer-col>ul {
+	font-size: 18px;
+	line-height: 35px;
+	text-align: left;
+	font-weight: 600;
+	padding: 1rem 2rem;
+	color: #fff;
+}
+
+.footer-col>ul>h3 {
+	color: #7389da;
 }
 
 .footer-bottom {
@@ -333,7 +343,7 @@ main>section>.container {
 	min-height: 80px;
 
 	/* debug */
-	background-color: #7fffd4;
+	/* background-color: #7fffd4; */
 }
 
 .footer-bottom>* {
