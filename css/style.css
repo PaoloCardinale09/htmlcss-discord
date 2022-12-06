@@ -88,7 +88,7 @@ header {
 	display: flex;
 	justify-content: center;
 	background-image: url(../img/jumbo.png);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 
@@ -107,7 +107,7 @@ header {
 }
 
 h1 {
-	font-size: 55px;
+	font-size: 60px;
 	text-align: center;
 	font-weight: 600;
 	margin-bottom: 2rem;
@@ -149,8 +149,24 @@ h1 {
 
 /* MAIN & SECTIONS */
 
+.side-col>h2 {
+	font-size: 55px;
+	text-align: left;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.side-col>p {
+	font-size: 18px;
+	line-height: 25px;
+}
+
 main>section {
 	padding: 50px 0;
+}
+
+.main-col>img {
+	width: 100%;
 }
 
 main>section>.container {
@@ -169,7 +185,7 @@ main>section>.container {
 }
 
 .main-col {
-	flex-grow: 2;
+	min-width: calc(100% / 3 * 2);
 
 	/* debug */
 	background-color: cornflowerblue;
@@ -177,7 +193,7 @@ main>section>.container {
 }
 
 .side-col {
-	flex-grow: 1;
+	min-width: calc(100% / 3);
 
 	/* debug */
 	background-color: pink;
