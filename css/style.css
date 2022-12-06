@@ -188,16 +188,16 @@ main>section>.container {
 	min-width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	/* background-color: cornflowerblue;
+	border: 2px dashed black; */
 }
 
 .side-col {
 	min-width: calc(100% / 3);
 
 	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	/* background-color: pink;
+	border: 2px dashed black; */
 }
 
 .hilighted-content {
