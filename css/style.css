@@ -122,7 +122,6 @@ h1 {
 	text-align: center;
 	font-size: 18px;
 	line-height: 25px;
-	padding: 0 140px;
 	margin-bottom: 2rem;
 }
 
@@ -263,6 +262,35 @@ main>section>.container {
 	background-color: #23272a;
 }
 
+.footer-main-col>h2 {
+	font-size: 40px;
+	font-weight: 600;
+	color: #7389da;
+	padding: 1rem 2rem;
+}
+
+.container-language>img {
+	height: 18px;
+}
+
+.container-language {
+	text-align: left;
+	padding: 1rem 2rem;
+}
+
+.language {
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+}
+
+.social {
+	padding: .5rem 2rem;
+	font-size: 25px;
+	color: #fff;
+	letter-spacing: .7rem;
+}
+
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
@@ -277,8 +305,8 @@ main>section>.container {
 	width: calc(100% / 3);
 
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	/* background-color: #f08080;
+	border: 2px dashed black; */
 }
 
 .footer-side-col {
