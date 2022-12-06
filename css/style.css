@@ -12,6 +12,17 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.wave {
+	opacity: 20%;
+	margin-bottom: -4px;
+}
+
+.wave-reverse {
+	opacity: 20%;
+	margin-bottom: -4px;
+	transform: rotate(180deg);
+}
+
 /* HEADER */
 
 header {
@@ -191,7 +202,7 @@ main>section>.container {
 }
 
 .bg-gray {
-	background-color: lightgray;
+	background-color: rgba(0, 0, 0, 20%);
 }
 
 .main-col {
