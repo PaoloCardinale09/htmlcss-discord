@@ -34,7 +34,7 @@ header {
 	align-items: center;
 	min-height: 80px;
 	padding: 15px 0;
-	background-color: #3161e0;
+	background-color: #265ee8;
 
 
 	/* debug */
@@ -45,6 +45,7 @@ header {
 	display: flex;
 	flex-grow: 1;
 	line-height: 30px;
+	padding: 0 3rem;
 }
 
 .header-links>.nav {
@@ -56,6 +57,8 @@ header {
 .header-links>.nav>li {
 	padding: 0 1rem;
 }
+
+
 
 .button {
 
@@ -114,6 +117,10 @@ header {
 	/* debug */
 	/* background-color: #ee82ee;
 	border: 2px dashed black; */
+}
+
+.bg-over {
+	background-color: #265ee8;
 }
 
 h1 {
