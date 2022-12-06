@@ -153,6 +153,7 @@ h1 {
 	border: none;
 	align-self: center;
 	font-size: 18px;
+	margin-bottom: 3rem;
 
 }
 
@@ -248,9 +249,6 @@ main>section>.container {
 	background-repeat: no-repeat;
 }
 
-.hilighted-button-download {
-	margin-bottom: 3rem;
-}
 
 /* FOOTER */
 
@@ -351,6 +349,6 @@ main>section>.container {
 
 
 	/* debug */
-	background-color: #ffb6c1;
-	border: 2px dashed black;
+	/* background-color: #ffb6c1;
+	border: 2px dashed black; */
 }
